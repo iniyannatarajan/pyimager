@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/scratch/software/src/pyimager/build/gnu_opt/CEP/Calibration/StationResponse/src/Package__Version.cc
+StationResponse/Package__Version.h
+-
+Common/Version.h
+-
+Common/Package__Version.h
+-
+ElementResponse/Package__Version.h
+-
+
+include/Common/Version.h
+string
+-
+vector
+-
+ostream
+-
+sstream
+-
+
+include/Package__Version/Common/Package__Version.h
+Common/Version.h
+-
+
+include/Package__Version/ElementResponse/Package__Version.h
+Common/Version.h
+-
+
+include/Package__Version/StationResponse/Package__Version.h
+Common/Version.h
+-
+

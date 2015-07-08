@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/scratch/software/src/pyimager/LCS/Common/test/tReadLine.cc
+lofar_config.h
+-
+Common/ReadLine.h
+-
+Common/lofar_iostream.h
+-
+Common/lofar_fstream.h
+-
+
+include/Common/ReadLine.h
+Common/lofar_string.h
+-
+
+include/Common/lofar_fstream.h
+Common/lofar_iosfwd.h
+-
+fstream
+-
+
+include/Common/lofar_iosfwd.h
+iosfwd
+-
+
+include/Common/lofar_iostream.h
+Common/lofar_iosfwd.h
+-
+iostream
+-
+
+include/Common/lofar_string.h
+string
+-
+
+include/lofar_config.h
+

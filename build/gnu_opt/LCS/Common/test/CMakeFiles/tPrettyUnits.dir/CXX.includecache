@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/scratch/software/src/pyimager/LCS/Common/test/tPrettyUnits.cc
+lofar_config.h
+-
+cmath
+-
+iostream
+-
+unistd.h
+-
+Common/PrettyUnits.h
+-
+
+include/Common/PrettyUnits.h
+string
+-
+
+include/lofar_config.h
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/scratch/software/src/pyimager/build/gnu_opt/LCS/pyparameterset/src/versionpyparameterset.cc
+pyparameterset/Package__Version.h
+-
+Common/Version.h
+-
+iostream
+-
+
+include/Common/Version.h
+string
+-
+vector
+-
+ostream
+-
+sstream
+-
+
+include/Package__Version/pyparameterset/Package__Version.h
+Common/Version.h
+-
+

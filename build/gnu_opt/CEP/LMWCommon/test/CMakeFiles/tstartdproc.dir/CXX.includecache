@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/scratch/software/src/pyimager/CEP/LMWCommon/test/tstartdproc.cc
+unistd.h
+-
+iostream
+-
+sstream
+-
+

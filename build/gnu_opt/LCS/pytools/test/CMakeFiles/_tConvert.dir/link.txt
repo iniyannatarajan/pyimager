@@ -1,0 +1,1 @@
+/usr/bin/g++  -fPIC  -fopenmp -pthread -g -O2   -shared -Wl,-soname,_tConvert.so -o _tConvert.so CMakeFiles/_tConvert.dir/tConvert.cc.o ../src/liblofar_pytools.so ../../Common/src/libcommon.so -Wl,-rpath,/scratch/software/src/pyimager/build/gnu_opt/LCS/pytools/src:/scratch/software/src/pyimager/build/gnu_opt/LCS/Common/src 

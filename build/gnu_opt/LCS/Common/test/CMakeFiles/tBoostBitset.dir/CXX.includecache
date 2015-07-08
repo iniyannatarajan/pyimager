@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/scratch/software/src/pyimager/LCS/Common/test/tBoostBitset.cc
+lofar_config.h
+-
+iostream
+-
+sstream
+-
+boost/dynamic_bitset.hpp
+-
+
+include/lofar_config.h
+

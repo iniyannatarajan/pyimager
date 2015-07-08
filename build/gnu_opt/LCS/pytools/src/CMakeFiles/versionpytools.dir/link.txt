@@ -1,0 +1,1 @@
+/usr/bin/g++    -fopenmp -pthread -g -O2   CMakeFiles/versionpytools.dir/versionpytools.cc.o  -o versionpytools -rdynamic liblofar_pytools.so ../../Common/src/libcommon.so -llog4cplus -lpthread -lboost_python -lpython2.7 -Wl,-rpath,/scratch/software/src/pyimager/build/gnu_opt/LCS/pytools/src:/scratch/software/src/pyimager/build/gnu_opt/LCS/Common/src: 

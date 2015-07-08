@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/scratch/software/src/pyimager/build/gnu_opt/CEP/Imager/LofarFT-4.2/src/Package__Version.cc
+LofarFT/Package__Version.h
+-
+Common/Version.h
+-
+Common/Package__Version.h
+-
+ParmDB/Package__Version.h
+-
+StationResponse/Package__Version.h
+-
+
+include/Common/Version.h
+string
+-
+vector
+-
+ostream
+-
+sstream
+-
+
+include/Package__Version/Common/Package__Version.h
+Common/Version.h
+-
+
+include/Package__Version/LofarFT/Package__Version.h
+Common/Version.h
+-
+
+include/Package__Version/ParmDB/Package__Version.h
+Common/Version.h
+-
+
+include/Package__Version/StationResponse/Package__Version.h
+Common/Version.h
+-
+

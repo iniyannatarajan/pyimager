@@ -1,0 +1,989 @@
+The system is: Linux - 3.13.0-24-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec96865387/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec96865387.dir/build.make CMakeFiles/cmTryCompileExec96865387.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec96865387.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec96865387.dir/testCCompiler.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec96865387
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec96865387.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTryCompileExec96865387.dir/testCCompiler.c.o  -o cmTryCompileExec96865387 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec955692892/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec955692892.dir/build.make CMakeFiles/cmTryCompileExec955692892.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec955692892.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec955692892.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec955692892
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec955692892.dir/link.txt --verbose=1
+/usr/bin/gcc     -v CMakeFiles/cmTryCompileExec955692892.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec955692892 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec955692892' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec955692892 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec955692892.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec955692892/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec955692892.dir/build.make CMakeFiles/cmTryCompileExec955692892.dir/build]
+  ignore line: [make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec955692892.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec955692892.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec955692892]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec955692892.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v CMakeFiles/cmTryCompileExec955692892.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec955692892 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec955692892' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec955692892 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec955692892.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec955692892] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec955692892.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1948151664/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1948151664.dir/build.make CMakeFiles/cmTryCompileExec1948151664.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1948151664.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTryCompileExec1948151664.dir/testCXXCompiler.cxx.o -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1948151664
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1948151664.dir/link.txt --verbose=1
+/usr/bin/g++        CMakeFiles/cmTryCompileExec1948151664.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1948151664 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1976535938/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1976535938.dir/build.make CMakeFiles/cmTryCompileExec1976535938.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1976535938.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTryCompileExec1976535938.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1976535938
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1976535938.dir/link.txt --verbose=1
+/usr/bin/g++      -v CMakeFiles/cmTryCompileExec1976535938.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1976535938 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1976535938' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1976535938 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1976535938.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1976535938/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1976535938.dir/build.make CMakeFiles/cmTryCompileExec1976535938.dir/build]
+  ignore line: [make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1976535938.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTryCompileExec1976535938.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1976535938]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1976535938.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v CMakeFiles/cmTryCompileExec1976535938.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1976535938 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1976535938' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1976535938 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1976535938.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1976535938] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1976535938.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3401405347/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3401405347.dir/build.make CMakeFiles/cmTryCompileExec3401405347.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3401405347.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3401405347.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3401405347
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3401405347.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTryCompileExec3401405347.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3401405347 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the function backtrace exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2664124953/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2664124953.dir/build.make CMakeFiles/cmTryCompileExec2664124953.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2664124953.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=backtrace   -o CMakeFiles/cmTryCompileExec2664124953.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2664124953
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2664124953.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=backtrace    CMakeFiles/cmTryCompileExec2664124953.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2664124953 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4149086656/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4149086656.dir/build.make CMakeFiles/cmTryCompileExec4149086656.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4149086656.dir/src.c.o
+/usr/bin/gcc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec4149086656.dir/src.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4149086656
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4149086656.dir/link.txt --verbose=1
+/usr/bin/gcc   -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec4149086656.dir/src.c.o  -o cmTryCompileExec4149086656 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2529420737/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2529420737.dir/build.make CMakeFiles/cmTryCompileExec2529420737.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2529420737.dir/src.cxx.o
+/usr/bin/g++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2529420737.dir/src.cxx.o -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2529420737
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2529420737.dir/link.txt --verbose=1
+/usr/bin/g++    -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec2529420737.dir/src.cxx.o  -o cmTryCompileExec2529420737 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec10661204/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec10661204.dir/build.make CMakeFiles/cmTryCompileExec10661204.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec10661204.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec10661204.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec10661204
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec10661204.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec10661204.dir/CheckIncludeFile.c.o  -o cmTryCompileExec10661204 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec749680082/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec749680082.dir/build.make CMakeFiles/cmTryCompileExec749680082.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec749680082.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec749680082.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec749680082
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec749680082.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec749680082.dir/CheckIncludeFile.c.o  -o cmTryCompileExec749680082 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1925262692/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1925262692.dir/build.make CMakeFiles/cmTryCompileExec1925262692.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1925262692.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec1925262692.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1925262692
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1925262692.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec1925262692.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1925262692 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining size of ushort passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2779942749/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2779942749.dir/build.make CMakeFiles/cmTryCompileExec2779942749.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2779942749.dir/HAVE_USHORT.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec2779942749.dir/HAVE_USHORT.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CheckTypeSize/HAVE_USHORT.c
+Linking C executable cmTryCompileExec2779942749
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2779942749.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec2779942749.dir/HAVE_USHORT.c.o  -o cmTryCompileExec2779942749 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1881185178/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1881185178.dir/build.make CMakeFiles/cmTryCompileExec1881185178.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1881185178.dir/HAVE_UINT.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec1881185178.dir/HAVE_UINT.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CheckTypeSize/HAVE_UINT.c
+Linking C executable cmTryCompileExec1881185178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1881185178.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec1881185178.dir/HAVE_UINT.c.o  -o cmTryCompileExec1881185178 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining size of ulong passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3066913366/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3066913366.dir/build.make CMakeFiles/cmTryCompileExec3066913366.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3066913366.dir/HAVE_ULONG.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec3066913366.dir/HAVE_ULONG.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CheckTypeSize/HAVE_ULONG.c
+Linking C executable cmTryCompileExec3066913366
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3066913366.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec3066913366.dir/HAVE_ULONG.c.o  -o cmTryCompileExec3066913366 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3761297953/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3761297953.dir/build.make CMakeFiles/cmTryCompileExec3761297953.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3761297953.dir/HAVE_LONG_LONG.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec3761297953.dir/HAVE_LONG_LONG.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CheckTypeSize/HAVE_LONG_LONG.c
+Linking C executable cmTryCompileExec3761297953
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3761297953.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec3761297953.dir/HAVE_LONG_LONG.c.o  -o cmTryCompileExec3761297953 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec618011384/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec618011384.dir/build.make CMakeFiles/cmTryCompileExec618011384.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec618011384.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec618011384.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec618011384
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec618011384.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec618011384.dir/CheckIncludeFile.c.o  -o cmTryCompileExec618011384 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1966816065/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1966816065.dir/build.make CMakeFiles/cmTryCompileExec1966816065.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1966816065.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec1966816065.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1966816065
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1966816065.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec1966816065.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1966816065 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4161760201/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4161760201.dir/build.make CMakeFiles/cmTryCompileExec4161760201.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4161760201.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec4161760201.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4161760201
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4161760201.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec4161760201.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4161760201 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file net/ethernet.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2556779197/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2556779197.dir/build.make CMakeFiles/cmTryCompileExec2556779197.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2556779197.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec2556779197.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2556779197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2556779197.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec2556779197.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2556779197 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2356847248/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2356847248.dir/build.make CMakeFiles/cmTryCompileExec2356847248.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2356847248.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec2356847248.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2356847248
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2356847248.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec2356847248.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2356847248 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3951303362/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3951303362.dir/build.make CMakeFiles/cmTryCompileExec3951303362.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3951303362.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec3951303362.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3951303362
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3951303362.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec3951303362.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3951303362 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4091061407/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4091061407.dir/build.make CMakeFiles/cmTryCompileExec4091061407.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4091061407.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec4091061407.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4091061407
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4091061407.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec4091061407.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4091061407 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec220352798/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec220352798.dir/build.make CMakeFiles/cmTryCompileExec220352798.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec220352798.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec220352798.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec220352798
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec220352798.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec220352798.dir/CheckIncludeFile.c.o  -o cmTryCompileExec220352798 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2261296381/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2261296381.dir/build.make CMakeFiles/cmTryCompileExec2261296381.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2261296381.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec2261296381.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2261296381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2261296381.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec2261296381.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2261296381 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec792156024/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec792156024.dir/build.make CMakeFiles/cmTryCompileExec792156024.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec792156024.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec792156024.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec792156024
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec792156024.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec792156024.dir/CheckIncludeFile.c.o  -o cmTryCompileExec792156024 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3444477105/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3444477105.dir/build.make CMakeFiles/cmTryCompileExec3444477105.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3444477105.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec3444477105.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3444477105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3444477105.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec3444477105.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3444477105 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec574929936/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec574929936.dir/build.make CMakeFiles/cmTryCompileExec574929936.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec574929936.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec574929936.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec574929936
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec574929936.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec574929936.dir/CheckIncludeFile.c.o  -o cmTryCompileExec574929936 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3808894957/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3808894957.dir/build.make CMakeFiles/cmTryCompileExec3808894957.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3808894957.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec3808894957.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3808894957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3808894957.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec3808894957.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3808894957 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec578437322/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec578437322.dir/build.make CMakeFiles/cmTryCompileExec578437322.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec578437322.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec578437322.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec578437322
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec578437322.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec578437322.dir/CheckIncludeFile.c.o  -o cmTryCompileExec578437322 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3644168119/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3644168119.dir/build.make CMakeFiles/cmTryCompileExec3644168119.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3644168119.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec3644168119.dir/CheckIncludeFile.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3644168119
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3644168119.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec3644168119.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3644168119 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1050581450/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1050581450.dir/build.make CMakeFiles/cmTryCompileExec1050581450.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1050581450.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec1050581450.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec1050581450
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1050581450.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec1050581450.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec1050581450 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE___PRETTY_FUNCTION__ succeded with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1260206844/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1260206844.dir/build.make CMakeFiles/cmTryCompileExec1260206844.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1260206844.dir/src.c.o
+/usr/bin/gcc   -fopenmp -pthread -DHAVE___PRETTY_FUNCTION__   -o CMakeFiles/cmTryCompileExec1260206844.dir/src.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1260206844
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1260206844.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread -DHAVE___PRETTY_FUNCTION__    CMakeFiles/cmTryCompileExec1260206844.dir/src.c.o  -o cmTryCompileExec1260206844 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <stdio.h> 
+    int main() { puts(__PRETTY_FUNCTION__); }
+    
+Performing C SOURCE FILE Test HAVE_GETPROTOBYNAME_R succeded with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2423549338/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2423549338.dir/build.make CMakeFiles/cmTryCompileExec2423549338.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2423549338.dir/src.c.o
+/usr/bin/gcc   -fopenmp -pthread -DHAVE_GETPROTOBYNAME_R   -o CMakeFiles/cmTryCompileExec2423549338.dir/src.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2423549338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2423549338.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread -DHAVE_GETPROTOBYNAME_R    CMakeFiles/cmTryCompileExec2423549338.dir/src.c.o  -o cmTryCompileExec2423549338 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #include <netdb.h>
+      int main() {
+        struct protoent *result, result_buf;
+        char buf[1024];
+        #ifdef _sun_
+        getprotobyname_r("tcp", &result_buf, buf, sizeof buf);
+        #else
+        getprotobyname_r("tcp", &result_buf, buf, sizeof buf, &result);
+        #endif
+      }
+Performing C SOURCE FILE Test HAVE_STRNLEN succeded with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3033065582/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3033065582.dir/build.make CMakeFiles/cmTryCompileExec3033065582.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3033065582.dir/src.c.o
+/usr/bin/gcc   -fopenmp -pthread -DHAVE_STRNLEN   -o CMakeFiles/cmTryCompileExec3033065582.dir/src.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3033065582
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3033065582.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread -DHAVE_STRNLEN    CMakeFiles/cmTryCompileExec3033065582.dir/src.c.o  -o cmTryCompileExec3033065582 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <string.h>
+    #include <stdio.h>
+    int main() {
+      char *s = "test";
+      int i = 3;
+      unsigned l = strnlen(s,i);
+    }
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/gfortran 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/2.8.12.2/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec136170842/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec136170842.dir/build.make CMakeFiles/cmTryCompileExec136170842.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec136170842.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTryCompileExec136170842.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTryCompileExec136170842
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec136170842.dir/link.txt --verbose=1
+/usr/bin/gfortran       CMakeFiles/cmTryCompileExec136170842.dir/testFortranCompiler.f.o  -o cmTryCompileExec136170842 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4098353653/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4098353653.dir/build.make CMakeFiles/cmTryCompileExec4098353653.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/gfortran    -c /usr/share/cmake-2.8/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTryCompileExec4098353653
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4098353653.dir/link.txt --verbose=1
+/usr/bin/gfortran   -v   CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec4098353653 -rdynamic  
+Driving: /usr/bin/gfortran -v CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec4098353653 -rdynamic -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/4.8/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4098353653' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4098353653' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4098353653 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4098353653/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4098353653.dir/build.make CMakeFiles/cmTryCompileExec4098353653.dir/build]
+  ignore line: [make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building Fortran object CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/gfortran    -c /usr/share/cmake-2.8/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTryCompileExec4098353653]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4098353653.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gfortran   -v   CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec4098353653 -rdynamic  ]
+  ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec4098353653 -rdynamic -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/4.8/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4098353653' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4098353653' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4098353653 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4098353653] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec4098353653.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [gfortran;m;quadmath;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3771750830/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3771750830.dir/build.make CMakeFiles/cmTryCompileExec3771750830.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec3771750830.dir/testFortranCompilerF90.f90.o
+/usr/bin/gfortran    -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTryCompileExec3771750830.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTryCompileExec3771750830
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3771750830.dir/link.txt --verbose=1
+/usr/bin/gfortran       CMakeFiles/cmTryCompileExec3771750830.dir/testFortranCompilerF90.f90.o  -o cmTryCompileExec3771750830 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the Fortran sgemm exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2791279474/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2791279474.dir/build.make CMakeFiles/cmTryCompileExec2791279474.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec2791279474.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTryCompileExec2791279474.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTryCompileExec2791279474
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2791279474.dir/link.txt --verbose=1
+/usr/bin/gfortran       CMakeFiles/cmTryCompileExec2791279474.dir/testFortranCompiler.f.o  -o cmTryCompileExec2791279474 -rdynamic /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec183418289/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec183418289.dir/build.make CMakeFiles/cmTryCompileExec183418289.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec183418289.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec183418289.dir/CheckIncludeFiles.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec183418289
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec183418289.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec183418289.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec183418289 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1796178888/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1796178888.dir/build.make CMakeFiles/cmTryCompileExec1796178888.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1796178888.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fopenmp -pthread    -o CMakeFiles/cmTryCompileExec1796178888.dir/CheckSymbolExists.c.o   -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1796178888
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1796178888.dir/link.txt --verbose=1
+/usr/bin/gcc   -fopenmp -pthread     CMakeFiles/cmTryCompileExec1796178888.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1796178888 -rdynamic 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+File /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Fortran cheev exists passed with the following output:
+Change Dir: /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3095167272/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3095167272.dir/build.make CMakeFiles/cmTryCompileExec3095167272.dir/build
+make[1]: Entering directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec3095167272.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTryCompileExec3095167272.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTryCompileExec3095167272
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3095167272.dir/link.txt --verbose=1
+/usr/bin/gfortran       CMakeFiles/cmTryCompileExec3095167272.dir/testFortranCompiler.f.o  -o cmTryCompileExec3095167272 -rdynamic /usr/lib/liblapack.so.3gf /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory `/scratch/software/src/pyimager/build/gnu_opt/CMakeFiles/CMakeTmp'
+
+
