@@ -1,1 +1,0 @@
-/scratch/software/src/pyimager/CEP/Imager/pyimager/algorithms/degridder.py

@@ -1,1 +1,0 @@
-/usr/bin/g++    -fopenmp -pthread -g -O2   CMakeFiles/tParameterSetMT.dir/tParameterSetMT.cc.o  -o tParameterSetMT -rdynamic ../src/libcommon.so -llog4cplus -lpthread -lcasa_casa -lhdf5 -lpthread -lz -ldl -lm -lhdf5_hl -lhdf5 -lpthread -lz -ldl -lm -lm -ldl -lcasa_casa -lhdf5_hl -ldl -Wl,-rpath,/scratch/software/src/pyimager/build/gnu_opt/LCS/Common/src 

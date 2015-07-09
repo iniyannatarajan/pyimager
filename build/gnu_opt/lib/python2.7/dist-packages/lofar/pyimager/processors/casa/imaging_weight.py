@@ -1,1 +1,0 @@
-/scratch/software/src/pyimager/CEP/Imager/pyimager/processors/casa/imaging_weight.py

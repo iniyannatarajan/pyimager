@@ -1,1 +1,0 @@
-/scratch/software/src/pyimager/CEP/Imager/pyimager/processors/pywsplit/imaging_weight.py

@@ -1,1 +1,0 @@
-/usr/bin/g++  -fPIC  -fopenmp -pthread -g -O2   -shared -Wl,-soname,libelementresponse.so -o libelementresponse.so CMakeFiles/elementresponse.dir/Package__Version.cc.o CMakeFiles/elementresponse.dir/ElementResponse.cc.o ../../../../LCS/Common/src/libcommon.so -llog4cplus -lpthread -Wl,-rpath,/scratch/software/src/pyimager/build/gnu_opt/LCS/Common/src: 
